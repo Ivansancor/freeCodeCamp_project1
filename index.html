@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <head>
+        <h1>Cat PhotoApp</h1>
+    </head>
+    <main>
+        <section>
+            <h2>Cat photos</h2>
+            <p>Here you will find a <a href="https://freecatphotoapp.com" target="_blank">gallery of cat photos</a></p>
+            <figure>
+                <img src="images/sphynx_cat.jpg" alt="Grey sphynx cat" height="400">
+                <figcaption>A cute grey cat species called sphynx.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Cat lists</h2>
+            <ol>Things cats love:
+                <li>Catnip</li>
+                <li>Yarn</li>
+                <li>Chasing light</li>
+            </ol>
+            <ul>Things cat hate:
+                <li>Dogs</li>
+                <li>Taking baths</li>
+                <li>Sleeping at night</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Cat form</h2>
+            <form action="">
+                <fieldset>
+                    <legend>What cat breed would you like to learn about?</legend>
+                    <label for="breed">Breed name: </label><input type="text" name="name" id="breed" placeholder="Enter the breed name here">
+                    <br>
+                    <p>Are you already familiar with it?</p>
+                    <input name="familiarity" type="radio" id="yes" value="yes">Yes <label for="yes"></label>
+                    <input name="familiarity" type="radio" id="no" value="no">No <label for="no"></label>
+                    <br>
+                    <label for="species">Select your preferred cat color: </label>
+                    <select name="colors" id="colors">
+                        <optgroup label="Real">
+                            <option value="grey">Grey</option>
+                            <option value="orange">Orange</option>
+                            <option value="white">White</option>
+                            <option value="black">Black</option>
+                        </optgroup>
+                        <optgroup label="Fake">
+                            <option value="blue">Blue</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="red">Red</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Submit your request!">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024 - Ivan Sanchez</p>
+    </footer>
+</body>
+</html>
